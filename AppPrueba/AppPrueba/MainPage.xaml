@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPrueba.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label x:Name="labelTexto" Text="Hello" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Entry x:Name="entryTexto" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="200"></Entry>
+            <Button x:Name="buttonTexto" Text="Clickeame" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Inicializar"></Button>
+            <Button x:Name="cambiar" Text="Cambiar pestaña" VerticalOptions="Center" HorizontalOptions="Center" Clicked="CambiarPes"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
